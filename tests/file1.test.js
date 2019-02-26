@@ -1,5 +1,5 @@
+import renderedphoto from './src/'
 const test = QUnit.test;
-
 
 QUnit.module('DOMcontentTest');
 
@@ -12,6 +12,7 @@ function renderedphoto(image) {
     const dom = template.content;
     return dom;
 }
+
 test('DOMcontent test', function(assert){
     const image = {
         title: 'words',
