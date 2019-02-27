@@ -1,6 +1,6 @@
-QUnit.module('DOMcontentTest');
-import renderedPhoto from './src';
 const test = QUnit.test;
+import renderedPhoto from '../src/renderedPhoto.js';
+QUnit.module('DOMcontentTest');
 
 test('DOMcontent test', function(assert){
 //arrange
